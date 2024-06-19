@@ -25,7 +25,8 @@
     "redux": "^5.0.1",
     "reselect": "^5.1.0",
     "shortid": "^2.2.16",
-    "vite": "^5.1.4"
+    "vite": "^5.1.4",
+    "accessibility-react-widget": "^1.0.5"
   },
   "scripts": {
     "dev": "vite",
