@@ -18,7 +18,7 @@ import { selectFinanceSettings } from '@/redux/settings/selectors';
 import { useDate } from '@/settings';
 import { useSelector } from 'react-redux';
 import useLanguage from '@/locale/useLanguage';
-import SelectCurrency from '@/components/SelectCurrency';
+import ChooseCurrency from '@/components/ChooseCurrency';
 
 export default function OfferForm({ subTotal = 0, current = null }) {
   const { last_offer_number } = useSelector(selectFinanceSettings);
@@ -115,7 +115,7 @@ function LoadOfferForm({ subTotal = 0, current = null }) {
           </Form.Item>
         </Col>
         <Col className="gutter-row" span={6}>
-          <SelectCurrency />
+          <ChooseCurrency />
         </Col>
         <Col className="gutter-row" span={4}>
           <Form.Item

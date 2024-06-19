@@ -125,8 +125,6 @@ export default function HeaderContent() {
       </Dropdown>
 
       {/* <AppsButton /> */}
-
-      <UpgradeButton />
     </Header>
   );
 }
